@@ -398,10 +398,12 @@ body.menu-open {
 /* --- HERO --- */
 .hero {
     min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     align-items: center;
     position: relative;
-    padding-top: 80px;
+    padding-top: 100px;
+    padding-bottom: 60px;
     overflow: hidden;
 }
 .hero__glow {
@@ -1073,8 +1075,44 @@ body.menu-open {
 @media (max-width: 768px) {
     .nav-links { display: none; }
     .menu-btn { display: flex; }
-    .hero__title { font-size: 2.8rem; }
-    .hero__stats { flex-direction: column; gap: 16px; }
+    
+    /* Hero на мобильных — компактнее и без обрезки */
+    .hero {
+        padding-top: 90px;
+        padding-bottom: 40px;
+        min-height: auto;
+    }
+    
+    .hero__grid {
+        gap: 32px;
+    }
+    
+    .hero__title {
+        font-size: clamp(2.2rem, 9vw, 3rem);
+        line-height: 1.1;
+    }
+    
+    .hero__tagline {
+        font-size: 0.9rem;
+        letter-spacing: 2px;
+        margin-bottom: 16px;
+    }
+    
+    .hero__desc {
+        margin-top: 20px;
+        font-size: 0.95rem;
+    }
+    
+    .hero__stats {
+        margin-top: 32px;
+        gap: 12px;
+        flex-direction: column;
+    }
+    
+    .hero__image-wrapper {
+        height: 340px;
+    }
+    
     .projects__grid { grid-template-columns: 1fr; }
     .footer__content { flex-direction: column; gap: 32px; }
     .footer__nav { align-items: flex-start; }
