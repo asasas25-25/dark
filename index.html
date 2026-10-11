@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOIR | Urban Clothing Brand</title>
+    
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar__inner">
+            <a href="#home" class="logo">
+                <span class="logo__icon">✱</span>
+                NOIR
+            </a>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-links__item">Главная</a>
+                <a href="#projects" class="nav-links__item">Коллекции</a>
+                <a href="#about" class="nav-links__item">О бренде</a>
+                <a href="#contacts" class="nav-links__item">Контакты</a>
+            </div>
+            
+            <button class="menu-btn" id="menuBtn" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Мобильное меню (оверлей + панель) -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__overlay" id="mobileOverlay"></div>
+        <div class="mobile-menu__panel">
+            <button class="mobile-menu__close" id="mobileClose" aria-label="Закрыть меню">
+                ✕
+            </button>
+            <div class="mobile-menu__links">
+                <a href="#home" class="mobile-menu__link">Главная</a>
+                <a href="#projects" class="mobile-menu__link">Коллекции</a>
+                <a href="#about" class="mobile-menu__link">О бренде</a>
+                <a href="#contacts" class="mobile-menu__link">Контакты</a>
+            </div>
+            <div class="mobile-menu__footer">
+                <a href="#" class="mobile-menu__social">IG</a>
+                <a href="#" class="mobile-menu__social">TG</a>
+                <a href="#" class="mobile-menu__social">TT</a>
+                <a href="#" class="mobile-menu__social">VK</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero__glow"></div>
+        <div class="container hero__grid">
+            <div class="hero__content">
+                <div class="hero__tagline reveal">Новая коллекция 2026</div>
+                <h1 class="hero__title reveal">
+                    Создаём<br>
+                    <span>сильные</span><br>
+                    бренды
+                </h1>
+                <p class="hero__desc reveal">
+                    Стратегия, дизайн, контент и креатив — всё, чтобы ваш бренд вдохновлял и оставался в памяти. Одежда для тех, кто не боится выделяться.
+                </p>
+                <div class="hero__stats reveal">
+                    <div class="stat-card">
+                        <div class="stat-card__number">85%</div>
+                        <div class="stat-card__label">Клиентов возвращаются</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__number">100+</div>
+                        <div class="stat-card__label">Успешных дропов</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero__visual reveal">
+                <div class="hero__image-wrapper">
+                    <div class="hero__badge">
+                        <div class="hero__badge-dot"></div>
+                        <span>Limited Edition</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHILOSOPHY SECTION -->
+    <section class="philosophy" id="philosophy">
+        <div class="container philosophy__grid">
+            <div class="reveal">
+                <div class="section-label">Наш подход</div>
+                <h2 class="philosophy__title">
+                    Переосмысляем<br>
+                    бренды, чтобы они<br>
+                    <span class="text-gray">вдохновляли</span><br>
+                    и вызывали эмоции
+                </h2>
+            </div>
+            <div class="reveal">
+                <p class="philosophy__text">
+                    Мы объединяем аналитику, креатив и технологии, чтобы создавать бренды, которые не просто заметны, а запоминаются. От айдентики до коммуникационной стратегии — всё для роста вашего бизнеса.
+                </p>
+                <p class="philosophy__text philosophy__text--small">
+                    Каждая вещь — это манифест. Каждый шов — это история. Мы создаём одежду для городских условий, где комфорт встречается с эстетикой.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="container">
+            
+            <!-- Верхний блок: манифест -->
+            <div class="about__header reveal">
+                <div class="section-label">О бренде</div>
+                <h2 class="about__title">
+                    Мы не создаём одежду.<br>
+                    Мы создаём <span class="text-red">характер</span>.
+                </h2>
+            </div>
+
+            <!-- Основной текст в две колонки -->
+            <div class="about__content">
+                <div class="about__text reveal">
+                    <p class="about__paragraph">
+                        NOIR — это не просто бренд. Это ответ на вопрос: «Как выглядеть так, чтобы тебя запомнили, не сказав ни слова?»
+                    </p>
+                    <p class="about__paragraph">
+                        Мы работаем на стыке уличной культуры и высокой моды. Каждая вещь — это результат сотен часов работы дизайнеров, технологов и портных. Мы не гонимся за трендами. Мы создаём то, что останется с вами дольше, чем один сезон.
+                    </p>
+                    <p class="about__paragraph">
+                        Наш почерк — <strong>строгий минимализм, глубокий чёрный и акцентный красный</strong>. Цвет, который не кричит, а говорит. Силуэты, которые подчёркивают, а не скрывают. Ткани, которые дышат и живут вместе с вами.
+                    </p>
+                </div>
+
+                <!-- Правая колонка с цифрами и фактами -->
+                <div class="about__facts reveal">
+                    <div class="fact-item">
+                        <div class="fact-item__number">2018</div>
+                        <div class="fact-item__label">Год основания</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-item__number">12</div>
+                        <div class="fact-item__label">Стран, где нас носят</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-item__number">100%</div>
+                        <div class="fact-item__label">Локальное производство</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-item__number">0%</div>
+                        <div class="fact-item__label">Компромиссов по качеству</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Три принципа бренда -->
+            <div class="about__principles">
+                <div class="principle-card reveal">
+                    <div class="principle-card__icon">01</div>
+                    <h3 class="principle-card__title">Форма</h3>
+                    <p class="principle-card__text">Чистые линии, продуманные силуэты, никакого визуального шума. Одежда, которая работает на вас, а не против.</p>
+                </div>
+                <div class="principle-card reveal" style="transition-delay: 0.1s;">
+                    <div class="principle-card__icon">02</div>
+                    <h3 class="principle-card__title">Материя</h3>
+                    <p class="principle-card__text">Плотный хлопок, итальянская шерсть, технологичные мембраны. Мы выбираем ткани, которые переживут не один сезон.</p>
+                </div>
+                <div class="principle-card reveal" style="transition-delay: 0.2s;">
+                    <div class="principle-card__icon">03</div>
+                    <h3 class="principle-card__title">Смысл</h3>
+                    <p class="principle-card__text">Каждая коллекция — это высказывание. Мы не делаем «просто вещи». Мы делаем вещи, которые говорят за вас.</p>
+                </div>
+            </div>
+
+            <!-- Цитата-манифест -->
+            <div class="about__quote reveal">
+                <blockquote>
+                    «Одежда — это язык. И мы помогаем вам говорить так, чтобы вас слушали».
+                </blockquote>
+                <div class="about__quote-author">— Основатель NOIR</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="projects__header reveal">
+                <h2 class="projects__title">Последние проекты</h2>
+                <div class="section-label section-label--no-margin">Портфолио</div>
+            </div>
+            
+            <div class="projects__grid">
+                <!-- CARD 1 -->
+                <article class="project-card reveal">
+                    <div class="project-card__image">
+                        <img src="https://i.pinimg.com/736x/f9/ad/93/f9ad93fd75a8af6b6f51e0e5f2a2fb97.jpg" alt="Urban Tech Collection">
+                    </div>
+                    <div class="project-card__info">
+                        <h3 class="project-card__title">Urban Tech</h3>
+                        <p class="project-card__category">Коллекция верхней одежды</p>
+                    </div>
+                </article>
+                
+                <!-- CARD 2 -->
+                <article class="project-card reveal" style="transition-delay: 0.1s;">
+                    <div class="project-card__image">
+                        <img src="https://i.pinimg.com/736x/c0/75/32/c07532d752909bc806fee292b53a78ad.jpg" alt="Monochrome Line">
+                    </div>
+                    <div class="project-card__info">
+                        <h3 class="project-card__title">Monochrome</h3>
+                        <p class="project-card__category">Базовая линия</p>
+                    </div>
+                </article>
+                
+                <!-- CARD 3 -->
+                <article class="project-card reveal" style="transition-delay: 0.2s;">
+                    <div class="project-card__image">
+                        <img src="https://i.pinimg.com/1200x/fe/34/52/fe3452eea0459dd92c3f2825f47ac18d.jpg" alt="Noir Accessories">
+                    </div>
+                    <div class="project-card__info">
+                        <h3 class="project-card__title">Noir Accessories</h3>
+                        <p class="project-card__category">Аксессуары и детали</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTS SECTION -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            
+            <!-- Заголовок секции -->
+            <div class="contacts__header reveal">
+                <div class="section-label">Свяжитесь с нами</div>
+                <h2 class="contacts__title">
+                    Готовы<br>
+                    к <span class="text-red">новому</span><br>
+                    образу?
+                </h2>
+                <p class="contacts__subtitle">
+                    Напишите нам — обсудим ваш запрос, подберём коллекцию или ответим на любой вопрос. Отвечаем в течение 24 часов.
+                </p>
+            </div>
+
+            <!-- Сетка: слева данные, справа форма -->
+            <div class="contacts__grid">
+                
+                <!-- ЛЕВАЯ КОЛОНКА: контакты -->
+                <div class="contacts__info reveal">
+                    
+                    <div class="contact-item">
+                        <div class="contact-item__label">Email</div>
+                        <a href="mailto:hello@noirbrand.com" class="contact-item__value">hello@noirbrand.com</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item__label">Телефон</div>
+                        <a href="tel:+79990000000" class="contact-item__value">+7 (999) 000-00-00</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item__label">Шоурум</div>
+                        <div class="contact-item__value contact-item__value--static">
+                            Москва, ул. Примерная, 12<br>
+                            Ежедневно с 12:00 до 21:00
+                        </div>
+                    </div>
+
+                    <!-- Соцсети -->
+                    <div class="contacts__socials">
+                        <div class="contact-item__label">Подписывайтесь</div>
+                        <p class="contacts__socials-text">
+                            Новые дропы, закрытые распродажи и анонсы — только в наших соцсетях.
+                        </p>
+                        <div class="socials">
+                            <a href="#" class="socials__link" aria-label="Instagram">
+                                <span>IG</span>
+                            </a>
+                            <a href="#" class="socials__link" aria-label="Telegram">
+                                <span>TG</span>
+                            </a>
+                            <a href="#" class="socials__link" aria-label="TikTok">
+                                <span>TT</span>
+                            </a>
+                            <a href="#" class="socials__link" aria-label="VK">
+                                <span>VK</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ПРАВАЯ КОЛОНКА: форма -->
+                <div class="contacts__form-wrapper reveal">
+                    <form class="contact-form" id="contactForm">
+                        
+                        <div class="contact-form__field">
+                            <label for="name" class="contact-form__label">Ваше имя</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                class="contact-form__input" 
+                                placeholder="Как к вам обращаться"
+                                required
+                            >
+                        </div>
+
+                        <div class="contact-form__field">
+                            <label for="email" class="contact-form__label">Email</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                class="contact-form__input" 
+                                placeholder="you@example.com"
+                                required
+                            >
+                        </div>
+
+                        <div class="contact-form__field">
+                            <label for="message" class="contact-form__label">Сообщение</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                class="contact-form__input contact-form__input--textarea" 
+                                placeholder="Расскажите, чем мы можем помочь"
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="contact-form__submit">
+                            Отправить заявку
+                            <span class="contact-form__submit-arrow">→</span>
+                        </button>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <div class="footer__logo">NOIR</div>
+                    <p class="footer__tagline">Одежда для тех, кто не боится выделяться.</p>
+                </div>
+                <div class="footer__nav">
+                    <a href="#" class="footer__link">Политика конфиденциальности</a>
+                    <a href="#" class="footer__link">Публичная оферта</a>
+                    <a href="#" class="footer__link">Доставка и возврат</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <span>&copy; 2026 NOIR. Все права защищены.</span>
+                <span>Сделано с душой</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключение скриптов -->
+    <script src="js/main.js"></script>
+</body>
+</html>
